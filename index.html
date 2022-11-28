@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <div class="window__authorization"><a class="authorization__link" href="">Авторизоваться</a> </div>
+
+        <div class="window__registration">Регистрация</div>
+
+        <form action="">
+            <span class="window__email">Email</span>
+            <span class="window__email_star">*</span>
+            <input id="email" class="email__input" type="email" placeholder="Введите email">
+            <span id="emailError" class="error"></span>
+
+            <span class="window__pass">Пароль</span>
+            <span class="window__password_star">*</span>
+            <input id="password" class="password__input" type="password" placeholder="Введите пароль">
+            <span id="passwordError" class="error"></span>
+
+            <span class="window__rules_star">*</span>
+            <div class="rules__checkbox">
+                <input class="checkbox" type="checkbox" name="" id="custom-checkbox">
+                <label id="label" for="checkbox"></label>
+                <span id="rulesError" class="error"></span>
+                <div class="window__rules">Я согласен с <a class="rules__link" href="">Правилами пользования приложения</a></div>
+            </div>
+           
+
+            <button id="button__registration" class="button">Регистрация</button>
+        </form>
+    </div>
+
+    <script src='./scripts/script.js'></script>
+</body>
+</html>

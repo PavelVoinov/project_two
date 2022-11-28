@@ -1,0 +1,222 @@
+body {
+    background-color: #1B2473;
+    font-family: 'Roboto', sans-serif;
+}
+
+.window {
+    position: relative;
+    background-color: white;
+    height: 412px;
+    width: 600px;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 29% auto;
+    margin-top: 82px;
+}
+
+.window__authorization {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    right: 11px;
+    top: 11px;
+    color: #1A226B;
+}
+
+.authorization__link:link{
+    text-decoration: none;
+}
+
+.window__registration {
+    color: #787878;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.window__email {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color:#787878;
+    position: absolute;
+    left: 53px;
+    top: 93px;
+}
+
+.window__email_star {
+    position: absolute;
+    left: 34px;
+    top: 119px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.email__input {
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 35px;
+    width: 510px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #CCCCCC;
+    padding-left: 15px;
+    padding-top: 4px;
+    }
+
+.window__pass {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color:#787878;
+    position: absolute;
+    left: 53px;
+    top: 187px;
+}
+
+.window__password_star {
+    position: absolute;
+    left: 34px;
+    top: 213px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.password__input {
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 45px;
+    width: 510px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #CCCCCC;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.window__rules_star {
+    position: absolute;
+    left: 34px;
+    top: 282px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.checkbox {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 45px;
+    top: 280px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 7px;
+}
+
+.rules__checkbox {
+    display: flex;
+    justify-content: left;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #787878;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.checkbox:checked+label {
+    border-color: #787878;
+    background-color: #FFFFFF;
+    background-image: url("../images/checkbox.svg");
+  }
+
+.window__rules {
+    width: 347px;
+    height: 16px;
+    margin-top: 33px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.rules__link:link {
+    color: #787878;
+}
+
+.rules__link:visited {
+    color: #787878;
+}
+
+.button {
+    background-color: #1A226B;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-left: 214px;
+    cursor: pointer;
+}
+
+.error {
+    position: absolute;
+    left: 45px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #CB2424;
+}
+
+#emailError {
+    top: 163px;
+}
+
+#passwordError {
+    top: 258px;
+}
+
+#rulesError {
+    top: 310px;
+}
